@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sanhei:war">
+    <output-path>$PROJECT_DIR$/sanhei/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sanhei</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sanhei-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sanhei:war exploded" />
+    </root>
+  </artifact>
+</component>

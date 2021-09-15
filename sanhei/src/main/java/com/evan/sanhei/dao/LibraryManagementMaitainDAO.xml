@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.evan.sanhei.dao.LibraryManagementMaitainDAO">
+
+    <!-- 图书类型查询-->
+    <select id="queryCategoryInfo" parameterType="com.evan.sanhei.model.vo.CategoryVO" resultType="com.evan.sanhei.model.ro.CategoryRO">
+        SELECT to_char(T.ID) typeId,
+        T.NAME typeName
+        FROM luosanhei.tcategory T
+        where 1 = 1
+        <if test="typeName != null and typeName != ''">
+            AND T.NAME LIKE concat(concat('%',#{typeName}),'%')
+        </if>
+        ORDER BY T.ID
+    </select>
+
+    <!-- 图书信息查询20210814-->
+    <select id="queryInfoBook" parameterType="com.evan.sanhei.model.vo.QueryInfoBookVO" resultType="com.evan.sanhei.model.ro.QueryInfoBookRO">
+        SELECT T.ID bookId, --图书ID
+        T.COVER cover,  --图书封面
+        T.TITLE title, --标题
+        T.AUTHOR author,  --作者
+        T.PUBLICATION_DATE pubDate,  --出版时间
+        T.PRESS press, --出版社
+        T.ABS abs,--图书简
+        T.CID cid, --图书类型ID
+        (SELECT name FROM luosanhei.tcategory l where l.id = t.cid) typeName
+        FROM LUOSANHEI.TBOOK T
+        WHERE 1 = 1
+        <if test="cid != null and cid != '' and cid != 0 ">
+            AND T.cid = #{cid, jdbcType=VARCHAR}
+        </if>
+        <if test="keyName != null and keyName != ''">
+            AND T.TITLE LIKE concat(concat('%',#{keyName}),'%')
+            OR T.AUTHOR LIKE concat(concat('%',#{keyName}),'%')
+        </if>
+
+        ORDER BY T.ID
+    </select>
+
+    <!--新增图书20210814-->
+    <insert id="insertBookInfo" parameterType="com.evan.sanhei.model.vo.InsertBookInfoVO">
+         INSERT INTO LUOSANHEI.TBOOK T( T.ID, --图书ID
+                                T.COVER,  --图书封面
+                                T.TITLE, --标题
+                                T.AUTHOR,  --作者
+                                T.PUBLICATION_DATE,  --出版时间
+                                T.PRESS, --出版社
+                                T.ABS, --图书简介
+                                T.CID  --图书类型ID
+                                                )
+                VALUES( FUNC_NEXTID('TBOOK'),
+                        #{cover,jdbcType = VARCHAR},
+                        #{title,jdbcType = VARCHAR},
+                        #{author,jdbcType = VARCHAR},
+                        #{pubDate,jdbcType = VARCHAR},
+                        #{press,jdbcType = VARCHAR},
+                        #{abs,jdbcType = VARCHAR},
+                        #{cid,jdbcType = NUMERIC} )
+            </insert>
+
+    <!--图书修改-->
+    <update id="updateBookInfo" parameterType="com.evan.sanhei.model.vo.UpdateBookInfoVO">
+    UPDATE LUOSANHEI.TBOOK t SET
+            t.cover = #{cover,jdbcType = VARCHAR},
+            t.title = #{title,jdbcType = VARCHAR},
+            t.author = #{author,jdbcType = VARCHAR},
+            t.PUBLICATION_DATE = #{pubDate,jdbcType = VARCHAR},
+            t.press = #{press,jdbcType = VARCHAR},
+            t.abs = #{abs,jdbcType = VARCHAR},
+            t.cid = #{cid,jdbcType = NUMERIC}
+            WHERE t.id=#{bookId}
+
+            </update>
+
+    <!--图书删除-->
+    <delete id="deleteBookInfo" parameterType="com.evan.sanhei.model.vo.DeleteBookInfoVO">
+        delete from LUOSANHEI.TBOOK T where t.id =#{id,jdbcType = NUMERIC}
+            </delete>
+
+</mapper>
