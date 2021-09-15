@@ -94,7 +94,7 @@ public class LibraryManagementMaitainController {
     @ApiOperation(value ="图书封面上传")
     @RequestMapping(value = "/uploadBookCovers", method = RequestMethod.POST)
     public String coversUpload(MultipartFile file) throws Exception {
-        String folder = "F:/svndownloads/wj-luo/wj-vue/src/coverimg";
+        String folder = "F:/gitdownloads/wj-luo/wj-vue/src/coverimg";
         File imageFolder = new File(folder);
         File f = new File(imageFolder, StringUtils.getRandomString(13) + file.getOriginalFilename()
                 .substring(file.getOriginalFilename().length() - 4));

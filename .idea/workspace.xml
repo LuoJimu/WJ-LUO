@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a809d78-f95a-452e-9234-3f96c8243da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -154,6 +157,8 @@
       <workItem from="1631581956038" duration="24367000" />
       <workItem from="1631668477185" duration="11585000" />
       <workItem from="1631698715007" duration="694000" />
+      <workItem from="1631700615765" duration="843000" />
+      <workItem from="1631702356306" duration="243000" />
     </task>
     <servers />
   </component>
@@ -165,7 +170,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
