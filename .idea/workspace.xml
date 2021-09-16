@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a809d78-f95a-452e-9234-3f96c8243da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wj-vue/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/components/Login.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/SvnDownloads/WJ-LUO" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,6 +155,7 @@
       <workItem from="1631698715007" duration="694000" />
       <workItem from="1631700615765" duration="843000" />
       <workItem from="1631702356306" duration="243000" />
+      <workItem from="1631752873886" duration="3306000" />
     </task>
     <servers />
   </component>

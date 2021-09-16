@@ -31,7 +31,7 @@
     </el-form-item>
     <el-form-item style="width: 100%">
       <el-button type="primary" style="background: #505458;border: none" v-on:click="login">登录</el-button>
-      <el-button type="primary" style="background: #505458;border: none" @click="reset">重置</el-button>
+      <el-button type="primary" style="background: #505458;border: none" @click="resetForm">重置</el-button>
     </el-form-item>
   </el-form>
   </body>
@@ -50,6 +50,12 @@
             }
     },
         methods: {
+            resetForm () {
+                this.loginForm = {
+                    username: '',
+                    password: ''
+                }
+            },
             login () {
                 // 20210125
                 var _this = this
