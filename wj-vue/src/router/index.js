@@ -5,7 +5,6 @@ import AppIndex from '../components/home/AppIndex'
 import Login from '../components/Login'
 import Home from '../components/Home'
 import LibraryIndex from '../components/library/LibraryIndex'
-// import EditBookForm from '../components/library/EditBookForm'
 
 Vue.use(Router)
 
@@ -25,8 +24,7 @@ export default new Router({
           path: '/index',
           name: 'AppIndex',
           component: AppIndex,
-          // name: 'EditBookForm',
-          // component: EditBookForm,
+          // 区分页面是否需要拦截20210125
           meta: {
             requireAuth: true
           }
@@ -44,18 +42,15 @@ export default new Router({
     {
       path: '/login',
       name: 'Login',
-      component: Login
-    }
-    // 20210125注释
-    // {
-    //   path: '/index',
-    //   name: 'AppIndex',
-    //   component: AppIndex,
-    //   // 区分页面是否需要拦截20210125
-    //   meta: {
-    //     requireAuth: true
-    //   }
-    // }
+      // component: Login
+      component: () => import('../components/Login')
+
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: () => import('../components/Register')
+    },
   ]
 })
 

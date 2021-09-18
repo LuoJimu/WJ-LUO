@@ -39,9 +39,9 @@ public class MyWebConfigurer implements WebMvcConfigurer {
                 .allowedHeaders("*");
     }
 
-    //将URL 的前缀跟我们设置的图片资源文件夹，即 f:/gitdownloads/wj-luo/wj-vue/src/coverimg 对应起来。
+    //将URL 的前缀跟我们设置的图片资源文件夹，即 f:/gitdownloads/wj-luo/wj-vue/src/assets/coverimg 对应起来。
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/WJ-LUO/file/**").addResourceLocations("file:f:/gitdownloads/wj-luo/wj-vue/src/coverimg/");
+        registry.addResourceHandler("/WJ-LUO/file/**").addResourceLocations("file:f:/gitdownloads/wj-luo/wj-vue/src/assets/coverimg/");
     }
 }

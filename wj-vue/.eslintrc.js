@@ -23,11 +23,13 @@ module.exports = {
   rules: {
     //加入这一行关闭ESLint 插件代码检测（格式敏感）
     "indent":["off",2],
-// allow async-await
+    // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     //20210625关闭no-multiple-empty-lines校验，解决Errors:http://eslint.org/docs/rules/no-multiple-empty-lines报错
-    'no-multiple-empty-lines':'off'
+    'no-multiple-empty-lines':'off',
+    'comma-dangle':'off',
+    'no-unused-vars':'off'
   }
 }
