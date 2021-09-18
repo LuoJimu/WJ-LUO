@@ -10,6 +10,9 @@ import store from './store'
 var axios = require('axios')
 axios.defaults.baseURL = 'http://localhost:8443/WJ-LUO'
 
+// 使请求带上凭证信息20210918
+axios.defaults.withCredentials = true
+
 // 全局注册，之后可在其他组件中通过 this.$axios 发送数据
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
@@ -17,22 +20,16 @@ Vue.config.productionTip = false
 // 引入ElementUI
 Vue.use(ElementUI)
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  render: h => h(App),
-  router,
-  // 注意这里20210125
-  store,
-  components: { App },
-  template: '<App/>'
-})
 
 // 20210125钩子函数及在某些时机会被调用的函数。这里我们使用 router.beforeEach()，意思是在访问每一个路由前调用
 router.beforeEach((to, from, next) => {
     if (to.meta.requireAuth) {
-      if (store.state.user.username) {
-        next()
+      // if (store.state.user.username) {
+      //   next()
+        if (store.state.user) {
+          axios.get('/authentication').then(resp => {
+            if (resp) next()
+          })
       } else {
         next({
           path: 'login',
@@ -44,5 +41,19 @@ router.beforeEach((to, from, next) => {
     }
   }
 )
+
+/* eslint-disable no-new */
+// 此段代码放在钩子函数先后影响着前端是否能拦截
+new Vue({
+  el: '#app',
+  render: h => h(App),
+  router,
+  // 注意这里20210125
+  store,
+  components: { App },
+  template: '<App/>'
+})
+
+
 
 

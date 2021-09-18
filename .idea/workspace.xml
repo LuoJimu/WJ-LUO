@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a809d78-f95a-452e-9234-3f96c8243da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/realm/WJRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/ro/ResultCodeRO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/ro/ResultFactoryRO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sanhei_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sanhei_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wj-vue/src/components/admin/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/ro/ResultRO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/ro/ResultRO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/src/assets/loginBackground.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/src/assets/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/src/coverimg/62pv5l779c9ut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wj-vue/src/components/common/NavMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/components/common/NavMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wj-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wj-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wj-vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/store/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../White-Jotter/White-Jotter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wj-vue/src/components/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,6 +89,9 @@
     <property name="ts.external.directory.path" value="D:\install\idea\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitDownloads\WJ-LUO\wj-vue\src\components\admin" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.evan.sanhei.service.Impl" />
     </key>
@@ -188,7 +168,7 @@
       <workItem from="1631700615765" duration="843000" />
       <workItem from="1631702356306" duration="243000" />
       <workItem from="1631752873886" duration="18154000" />
-      <workItem from="1631863824053" duration="23287000" />
+      <workItem from="1631863824053" duration="32974000" />
     </task>
     <servers />
   </component>
@@ -343,7 +323,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>58</line>
+          <line>60</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -378,28 +358,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>45</line>
+          <line>46</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
-          <line>54</line>
+          <line>56</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
           <line>42</line>
           <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/wj-vue/src/components/library/Books.vue</url>
@@ -440,6 +440,12 @@
           <url>file://$PROJECT_DIR$/wj-vue/src/components/library/Books.vue</url>
           <line>220</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/LibraryManagementMaitainServiceImpl.java</url>
+          <line>27</line>
+          <properties field="libraryManagementMaitainDAO" class="com.evan.sanhei.service.Impl.LibraryManagementMaitainServiceImpl" />
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -14,6 +14,12 @@ export default new Router({
   routes: [
     // 下面都是固定的写法
     {
+      path: '/',
+      name: 'Default',
+      redirect: '/home',
+      component: Home
+    },
+    {
       path: '/home',
       name: 'Home',
       component: Home,

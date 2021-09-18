@@ -41,6 +41,7 @@ public class LoginController {
         Subject subject = SecurityUtils.getSubject();
 //        subject.getSession().setTimeout(10000);
         UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, requestUser.getPassword());
+        usernamePasswordToken.setRememberMe(true);
         try {
             //我们只需要调用一句 subject.login(usernamePasswordToken) 就可以执行密码验证
             subject.login(usernamePasswordToken);
@@ -52,6 +53,7 @@ public class LoginController {
 
     }
 
+    //注册
     @PostMapping("/WJ-LUO/register")
     @ResponseBody
     public ResultRO register(@RequestBody UserVO userVO) {
@@ -66,6 +68,20 @@ public class LoginController {
                 return ResultFactoryRO.buildFailResult("用户已存在");
         }
         return ResultFactoryRO.buildFailResult("未知错误");
+    }
+
+    //登出
+    @GetMapping("/WJ-LUO/logout")
+    public ResultRO logout() {
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+        return ResultFactoryRO.buildSuccessResult("成功登出");
+    }
+
+    @ResponseBody
+    @GetMapping(value = "/WJ-LUO/authentication")
+    public String authentication(){
+        return "身份认证成功";
     }
 
 //    20210816注释
