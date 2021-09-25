@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a809d78-f95a-452e-9234-3f96c8243da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wj-vue/src/components/admin/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/JotterManagementMaitainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/dao/JotterManagementMaitainDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/dao/JotterManagementMaitainDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/ro/QueryJotterArticleRO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/vo/QueryJotterArticleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/JotterManagementMaitainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/JotterManagementMaitainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wj-vue/src/components/common/styles/markdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wj-vue/src/components/jotter/ArticleDetails.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wj-vue/src/components/jotter/Articles.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wj-vue/src/components/admin/Header.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wj-vue/src/components/common/NavMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/components/common/NavMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wj-vue/src/components/library/ImgUpload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/components/library/ImgUpload.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wj-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wj-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wj-vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wj-vue/src/store/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +49,12 @@
         <option value="HTML File" />
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -73,7 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wj-vue/src/components/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wj-vue/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,6 +97,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitDownloads\WJ-LUO\wj-vue\src\components" />
+      <recent name="F:\GitDownloads\WJ-LUO\wj-vue\src\components\common\styles" />
       <recent name="F:\GitDownloads\WJ-LUO\wj-vue\src\components\admin" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -168,7 +177,10 @@
       <workItem from="1631700615765" duration="843000" />
       <workItem from="1631702356306" duration="243000" />
       <workItem from="1631752873886" duration="18154000" />
-      <workItem from="1631863824053" duration="32974000" />
+      <workItem from="1631863824053" duration="33366000" />
+      <workItem from="1632287962734" duration="18930000" />
+      <workItem from="1632491964371" duration="6651000" />
+      <workItem from="1632540798029" duration="19320000" />
     </task>
     <servers />
   </component>
@@ -323,7 +335,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>60</line>
+          <line>63</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -343,63 +355,143 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>40</line>
+          <line>42</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>46</line>
+          <line>48</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>47</line>
+          <line>49</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>75</line>
+          <line>79</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LoginController.java</url>
-          <line>83</line>
+          <line>88</line>
           <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
           <line>25</line>
           <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/JotterManagementMaitainController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/JotterManagementMaitainServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/JotterManagementMaitainServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/model/vo/QueryJotterArticleVO.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/JotterManagementMaitainServiceImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/controller/LibraryManagementMaitainController.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/utils/StringUtils.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/utils/StringUtils.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/interceptor/LoginInterceptor.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/config/ShiroConfiguration.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/common/realm/WJRealm.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/wj-vue/src/components/library/Books.vue</url>
@@ -440,6 +532,27 @@
           <url>file://$PROJECT_DIR$/wj-vue/src/components/library/Books.vue</url>
           <line>220</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wj-vue/src/components/jotter/Articles.vue</url>
+          <line>47</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wj-vue/src/components/jotter/Articles.vue</url>
+          <line>46</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wj-vue/src/components/jotter/Articles.vue</url>
+          <line>49</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wj-vue/src/components/library/EditForm.vue</url>
+          <line>139</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/sanhei/src/main/java/com/evan/sanhei/service/Impl/LibraryManagementMaitainServiceImpl.java</url>

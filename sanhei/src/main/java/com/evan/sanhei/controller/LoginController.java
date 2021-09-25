@@ -5,6 +5,7 @@ import com.evan.sanhei.model.ro.ResultRO;
 import com.evan.sanhei.model.vo.UserVO;
 import com.evan.sanhei.service.Impl.UserServiceImpl;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -33,6 +34,7 @@ public class LoginController {
     private UserServiceImpl userServiceImpl;
 
     @CrossOrigin //解决跨域问题
+    @ApiOperation(value ="用户登录")
     @PostMapping(value = "/WJ-LUO/login")
     @ResponseBody
     public ResultRO login(@RequestBody UserVO requestUser) {
@@ -54,6 +56,7 @@ public class LoginController {
     }
 
     //注册
+    @ApiOperation(value ="用户注册")
     @PostMapping("/WJ-LUO/register")
     @ResponseBody
     public ResultRO register(@RequestBody UserVO userVO) {
@@ -71,6 +74,7 @@ public class LoginController {
     }
 
     //登出
+    @ApiOperation(value ="用户退出登录")
     @GetMapping("/WJ-LUO/logout")
     public ResultRO logout() {
         Subject subject = SecurityUtils.getSubject();
@@ -78,8 +82,9 @@ public class LoginController {
         return ResultFactoryRO.buildSuccessResult("成功登出");
     }
 
-    @ResponseBody
+    @ApiOperation(value ="用户身份认证")
     @GetMapping(value = "/WJ-LUO/authentication")
+    @ResponseBody
     public String authentication(){
         return "身份认证成功";
     }

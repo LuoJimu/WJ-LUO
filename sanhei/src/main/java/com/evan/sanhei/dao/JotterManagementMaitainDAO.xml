@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.evan.sanhei.dao.JotterManagementMaitainDAO">
+
+    <!-- 笔记本文章信息查询20210923-->
+    <select id="queryJotterArticleInfo" parameterType="com.evan.sanhei.model.vo.QueryJotterArticleVO" resultType="com.evan.sanhei.model.ro.QueryJotterArticleRO">
+        SELECT T.ID articleId, --文章id
+             T.ARTICLE_TITLE articleTitle, --文章标题
+			 T.ARTICLE_CONTENT_HTML articleContentHtml, --文章内容渲染
+			 T.ARTICLE_CONTENT_MD articleContentMd, --文章内容
+			 T.ARTICLE_ABSTRACT articleAbstract, --文章摘要
+			 T.ARTICLE_COVER articleCover, --文章封面URL
+			 T.ARTICLE_DATE articleDate --发布时间
+        FROM luosanhei.jotter_article T where 1 = 1
+        <if test="articleId != null and articleId != '' ">
+            AND T.id = #{articleId, jdbcType=VARCHAR}
+        </if>
+        ORDER BY T.ID
+    </select>
+
+    <!--笔记本文章删除-->
+    <delete id="deleteBook" parameterType="com.evan.sanhei.model.vo.QueryJotterArticleVO">
+        delete from LUOSANHEI.TBOOK T where t.id =#{id,jdbcType = NUMERIC}
+            </delete>
+
+</mapper>
